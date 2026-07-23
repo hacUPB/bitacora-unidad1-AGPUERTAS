@@ -1,3 +1,5 @@
+
+```js
 //@SCREEN
 //D=A
 //@i
@@ -45,3 +47,4 @@ M=M+1
 0;JMP
 
 //Para mi lo que este programa realiza es leer la tecla precionada mediante el teclado despues mediante la etiqueta (@KBD) nos lleva a la posicion 24576 y despues  almacena este valor en D    
+```
