@@ -1,5 +1,3 @@
-
-```js
 //@SCREEN
 //D=A
 //@i
@@ -45,6 +43,9 @@ M=M+1
 @READKEYBOARD
 0;JMP
 
+
+//Para mi lo que este programa realiza es leer la tecla precionada mediante el teclado despues mediante la etiqueta (@KBD) nos lleva a la posicion 24576 y despues  almacena este valor en D.
+
 //En este programa la instruccion "M=M+1" es una instruccion ALU debido a que realiza una operacion aritmetica en este caso una suma.
 
 //¿Para qué sirve el registro PC?  Es un registro interno de la CPU la cual se encarga de guaradar la direccion de memoria de la proxima instruccion que el proceso debe ejecutar.
@@ -55,5 +56,3 @@ M=M+1
 
 //Identifica un bucle en el programa y explica su funcionamiento. "@READKEYBOARD" "0;JMP" es un bucle que se encarga de tener el programa en funcionamiento asi el programa no este haciendo nada.
 
-//Para mi lo que este programa realiza es leer la tecla precionada mediante el teclado despues mediante la etiqueta (@KBD) nos lleva a la posicion 24576 y despues  almacena este valor en D.
-```
