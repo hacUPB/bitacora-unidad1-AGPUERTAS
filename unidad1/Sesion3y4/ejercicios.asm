@@ -28,8 +28,7 @@ D;JLE
 M=M-1
 A=M
 M=0
-@READKEYBOARD
-0;JMP
+C
 
 (KEYPRESSED)
 @i
@@ -46,5 +45,15 @@ M=M+1
 @READKEYBOARD
 0;JMP
 
-//Para mi lo que este programa realiza es leer la tecla precionada mediante el teclado despues mediante la etiqueta (@KBD) nos lleva a la posicion 24576 y despues  almacena este valor en D    
+//En este programa la instruccion "M=M+1" es una instruccion ALU debido a que realiza una operacion aritmetica en este caso una suma.
+
+//¿Para qué sirve el registro PC?  Es un registro interno de la CPU la cual se encarga de guaradar la direccion de memoria de la proxima instruccion que el proceso debe ejecutar.
+
+//¿Cuál es la diferencia entre @i y @READKEYBOARD? La "@i" es una variable declarada en el programa mientras que "@READKEYBOARD" es un a etioqueta que se encraga de leer una tecla presionad en el teclado.
+
+//Describe qué se necesita para leer el teclado y mostrar información en la pantalla. Se necesita de "(READKEYBOARD)" y "@KBD" las cuales se encargan de leer la tecla presionada  por la persona y despues una condicion que en este caso es "KEYPRESSED" que al momento de ser presionada nos lleva al condicional con el mismo nombre en el cual lee el valor del codigo ASCII y lo almacena en la memoria de la pantalla.
+
+//Identifica un bucle en el programa y explica su funcionamiento. "@READKEYBOARD" "0;JMP" es un bucle que se encarga de tener el programa en funcionamiento asi el programa no este haciendo nada.
+
+//Para mi lo que este programa realiza es leer la tecla precionada mediante el teclado despues mediante la etiqueta (@KBD) nos lleva a la posicion 24576 y despues  almacena este valor en D.
 ```
