@@ -1,28 +1,3 @@
-//@1
-//D=A
-//@2
-//D=D+A
-//@16
-//M=D
-//(END)
-//@END
-//0;JMP
-
-//Este programa la funcion que realiza es la de sumar 2+1 y almacenando el resultado en la posicion 16 de la RAM
-
-//Escribe un programa en lenguaje ensablador que sume los números 5 y 10, y almacene el resultado en la dirección de memoria 20. Utiliza el simulador de la CPU Hack para ejecutar tu programa y verifica que el resultado es correcto.
-//@5
-//D=A
-//@10
-//D=D+A
-//@20
-//M=D
-//(END)
-//@END
-//0;JMP
-
-//¿Qué diferencia hay entre los datos almacenados en la memoria ROM y en la RAM?
-//La RAM Es el espacio donde el dispositivo almacena datos temporales y que se borran apenas el ordenador se apaga, la ROM se encarga de los adtos escenciales para el correcto funcionamiento del ordenador.
 
 //Copiar una constatnte al 
 //@1954
