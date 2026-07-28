@@ -30,7 +30,7 @@ M=D
 ![alt text](../ejrecicios-capturas/Ejercisio2Secion2.png)
 
 Escribe un programa en lenguaje ensablador que sume los números 5 y 10, y almacene el resultado en la dirección de memoria 20. Utiliza el simulador de la CPU Hack para ejecutar tu programa y verifica que el resultado es correcto
-```
+```asm
 @5
 D=A
 @10

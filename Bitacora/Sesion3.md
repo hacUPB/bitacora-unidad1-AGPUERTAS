@@ -1,4 +1,4 @@
-```
+```asm
 @SCREEN
 D=A
 @i
