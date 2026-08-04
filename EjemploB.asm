@@ -1,25 +1,23 @@
-@5
-D=M
+@100
+D=A
+@punt
+M=D
 @10
-D=D-A
-@LESS 
-D;JLT
-@GREATER_EQUAL
-0;JMP
-(LESS)
-  @1
-  D=A
-  @7
-  M=D
-  @END
-  0;JMP
-(GREATER_EQUAL)
-  @0
-  D=A
-  @7
-  M=D
-  @END
-  0;JMP
+D=A
+@cont
+M=D
+(LOOP)
+@7
+D=A
+@punt
+A=M
+M=D
+@punt
+M=M+1
+@cont
+MD=M-1
+@LOOP
+D;JGT
 (END)
-  @END
-  0;JMP
+@END
+0;JMP

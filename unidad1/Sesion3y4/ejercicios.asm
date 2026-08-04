@@ -1,9 +1,7 @@
-
 @SCREEN
 D=A
 @i
 M=D
-
 
 (READKEYBOARD)
 @KBD
@@ -20,7 +18,8 @@ D;JLE
 M=M-1
 A=M
 M=0
-C
+@READKEYBOARD
+0;JMP
 
 (KEYPRESSED)
 @i
@@ -36,6 +35,3 @@ M=-1
 M=M+1
 @READKEYBOARD
 0;JMP
-
-
-
