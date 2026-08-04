@@ -2,15 +2,24 @@
 D=M
 @10
 D=D-A
-@LESS
-0;JLE
-@7
-M=0
-@END
+@LESS 
+D;JLT
+@GREATER_EQUAL
 0;JMP
 (LESS)
-@7
-M=1
+  @1
+  D=A
+  @7
+  M=D
+  @END
+  0;JMP
+(GREATER_EQUAL)
+  @0
+  D=A
+  @7
+  M=D
+  @END
+  0;JMP
 (END)
-@END
-0;JMP  
+  @END
+  0;JMP
