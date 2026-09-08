@@ -82,5 +82,4 @@ GREATER_EQUAL
   @END
   0; JMP
 ```
-![alt text](../ejrecicios-capturas/5.png)
-
+![alt text](../../ejrecicios-capturas/Unidad1/Actividad5.png)
