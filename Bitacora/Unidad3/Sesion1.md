@@ -18,4 +18,22 @@ Un objeto de tipo Circulo, además de Radio, ¿Qué otros datos almacena en su i
 
 - R=// Tambien almacena el dato de nombre.
 
+### **Polimorfismo:**
+
+Observa el bucle `foreach`. La variable `fig` es de tipo Figura, pero a veces contiene un Circulo y otras un Rectangulo. Cuando se llama a `fig.Dibujar()`, el programa ejecuta la versión correcta. En tu opinión, ¿Cómo crees que funciona esto “por debajo”? No necesitas saber la respuesta correcta, solo quiero que intentes razonar cómo podría ser.
+
+- R=// Para mi el programa implementa un patron con el que se encarga de recorrer la lista e ir creando las figuras segun el patron lo valla solicitando.
+
+### **Parte 3: hipótesis sobre la implementación**
+
+Esta es la parte más importante. Imagina que eres un diseñador de lenguajes de programación. Tienes que decidir cómo implementar estos conceptos en la memoria y en el procesador. No hay respuestas incorrectas, solo ideas. Dibuja si te ayuda.
+
+**Memoria y herencia**: cuando creas un objeto `Rectangulo`, este tiene Base, Altura y también Nombre. ¿Cómo te imaginas que se organizan esos tres datos en la memoria del computador para formar un solo objeto?
+
+- R=// El computador recorre las clases con get set para ir recollectando los datos que conforman el rectangulo asi poder crearlo
+
+**El mecanismo del polimorfismo**: pensemos de nuevo en la llamada fig.Dibujar(). El compilador solo sabe que fig es una Figura. ¿Cómo decide el programa, mientras se está ejecutando, si debe llamar al Dibujar del Circulo o al del Rectangulo? Lanza algunas ideas o hipótesis.
+
+- 
+
 
