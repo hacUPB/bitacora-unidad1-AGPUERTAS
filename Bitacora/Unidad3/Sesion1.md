@@ -34,6 +34,22 @@ Esta es la parte más importante. Imagina que eres un diseñador de lenguajes de
 
 **El mecanismo del polimorfismo**: pensemos de nuevo en la llamada fig.Dibujar(). El compilador solo sabe que fig es una Figura. ¿Cómo decide el programa, mientras se está ejecutando, si debe llamar al Dibujar del Circulo o al del Rectangulo? Lanza algunas ideas o hipótesis.
 
-- 
+- R=// Idea ingenua: el compilador ve new Circulo(5.0) y guarda esa información "dentro" de la variable fig, para luego llamar al método correcto.
+
+**La barrera del encapsulamiento**: ¿Cómo crees que el compilador logra que no puedas acceder a un miembro private desde fuera de la clase? ¿Es algo que se revisa cuando escribes el código, o es una protección que existe mientras el programa se ejecuta? ¿Por qué piensas eso?
+
+- R=// No logra acceder debido al encapsulamiento ya que mientras sea private solo se puede acceder a ellas mediante metodos de la misma clase.
+
+### **Actividad 2: Aplicación**
+
+**Analiza el código de la aplicación y trata de explicar en tus propias palabras qué está haciendo**
+
+-  El codigo lo que hace es recolectar los valores almacenados en las diferentes clases para que mediante unos comandos establecidos en el coigo sueda una explosion de fiuguras contenidas dentro de las clases ```class Particle``` ```class ExplosionParticle : public Particle``` y ```class StarExplosion : public ExplosionParticle``` los cuales son guiados por una clase que les da el factor random para que cada explosion sea diferente.
+
+![alt text](../../ejrecicios-capturas/Unidad3/Sesion1Actidad2.png)
+
+
+
+
 
 
