@@ -21,3 +21,6 @@
 **¿Qué crees que está pasando “detrás de cámaras” cuando presionas las teclas? Formula una hipótesis inicial sobre cómo la aplicación cambia el comportamiento de las partículas.**
 
 - Dentro del programa cada uno de los comportamientos que tienen las particulas tiene su respectiva clase programa para que realize en comportamiento asisgnado y las teclas son asisgnadas mediante un swich en el main y cada vez que se presione la tecla asignada se presione llama a la clase.
+
+## **Actividad 9: Investiga el patrón observer**
+ 
